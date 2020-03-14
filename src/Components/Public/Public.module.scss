@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 600px;
+  margin: auto;
+  text-align: center;
+
+  .image {
+    border-radius: 60%;
+  }
+}
+
+.btndiv {
+  width: 100%;
+}
+
+button {
+  height: 30px;
+  background-color: rgb(45, 143, 218);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
